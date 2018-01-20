@@ -1,0 +1,23 @@
+{
+  "name": "learning-wes-bos-flexbox",
+  "version": "1.0.0",
+  "description": "Repo of code while going through Wes Bos' Flexbox Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neenjaw/learning-wes-bos-flexbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neenjaw/learning-wes-bos-flexbox/issues"
+  },
+  "homepage": "https://github.com/neenjaw/learning-wes-bos-flexbox#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0"
+  }
+}

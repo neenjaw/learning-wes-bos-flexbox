@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox Nav Toggle</title>
+    <script src="https://use.fontawesome.com/1ab8761c45.js"></script>
+    <link rel="stylesheet" href="build/flex-nav-toggle.css">
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="top">
+        <h1><a href="#">What the flexbox?!</a></h1>
+      </header>
+
+      <nav class="flex-nav">
+        <a href="#" class="toggleNav">&#9776; Menu</a>
+        <ul>
+          <li><a href="#">Item 01</a></li>
+          <li><a href="#">Item 02</a></li>
+          <li><a href="#">Item 03</a></li>
+          <li><a href="#">Item 04</a></li>
+          <li><a href="#">Item 05</a></li>
+          <li><a href="#">Item 06</a></li>
+          <li class="social"><a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a></li>
+          <li class="social"><a href="http://facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+          <li class="social"><a href="http://github.com"><i class="fa fa-github-square"></i></a></li>
+          <li class="social"><a href="http://instagram.com"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </nav>
+
+      <section class="hero">
+        <img src="http://dummyimage.com/1000x600/000/00ffd5.png" alt="lorem">
+      </section>
+
+      <section class="details">
+        <p>A simple video course to help you master flexbox.</p>
+        <p>Sign up, like i did, to work through the videos and exercises!</p>
+      </section>
+
+      <section class="signup">
+        <form class="signup" action="">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Email Address">
+          <input type="submit" value="Sign my up!">
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; Tim</p>
+      </footer>
+
+    </div>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+      $(function () {
+        $('.toggleNav').on('click', function () {
+          $('.flex-nav ul').toggleClass('open');
+        });
+      });
+
+    </script>
+  </body>
+</html>
