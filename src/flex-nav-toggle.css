@@ -166,4 +166,9 @@ a:hover {
   .signup {
     order: 4;
   }
+
+  .signup input {
+    display: block;
+    margin: 5px auto;
+  }
 }

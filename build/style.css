@@ -33,8 +33,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
+  ;
 }
 
 .box {

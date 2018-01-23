@@ -8,9 +8,12 @@ gulp.task('styles', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('src/style.css', ['styles']);
-  gulp.watch('src/flex-nav.css', ['styles']);
-  gulp.watch('src/flex-nav-toggle.css', ['styles']);
+  // gulp.watch('src/style.css', ['styles']);
+  // gulp.watch('src/flex-nav.css', ['styles']);
+  // gulp.watch('src/flex-nav-toggle.css', ['styles']);
+  // gulp.watch('src/flex-center.css', ['styles']);
+
+  gulp.watch('src/*.css', ['styles']);
 })
 
 gulp.task('default', ['styles', 'watch']);

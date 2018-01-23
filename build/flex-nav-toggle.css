@@ -201,4 +201,9 @@ a:hover {
         -ms-flex-order: 4;
             order: 4;
   }
+
+  .signup input {
+    display: block;
+    margin: 5px auto;
+  }
 }
