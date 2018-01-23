@@ -11,8 +11,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   color:white;
   font-size: 30px;
   text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-  padding:10px;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
 }
 
 /* Colours for each box */
@@ -31,10 +30,25 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  ;
+  flex-wrap: wrap;
 }
 
 .box {
   flex-basis: 300px;
   flex-grow: 1;
+}
+
+.container a {
+  display: block;
+  padding: 25px 10px;
+
+  color:white;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease-in;
+}
+
+.container a:hover {
+  background-color: rgba(255,255,255,0.2);
 }
