@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FlexBox form</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="build/flex-form.css">
+    <link rel="stylesheet" href="build/overlay.css">
+  </head>
+  <body>
+
+    <div class="overlay">
+      <span class="close">❌</span>
+      <h2>FlexBox Forms</h2>
+      <p>
+        Using flexbox to make forms.
+      </p>
+      <p>
+        Created while following Wes Bos' "What the FlexBox?!" video guide.
+        Check it out <a href="http://flexbox.io/">here</a>.
+      </p>
+      <p>
+        <small>If cloned from Github, the video background has not been uploaded.  Video obtained from <a href="https://coverr.co/s3/zip/Field_day.zip">coverr.co</a></small>
+      </p>
+    </div>
+
+    <div class="cover">
+      <form class="flex-form">
+
+        <input class="search" placeholder="Where do you want to go?">
+
+        <label for="from">From</label>
+        <input type="date" name="from">
+
+        <label for="to">To</label>
+        <input type="date" name="to">
+
+        <select class="" name="">
+          <option value="1">1 Guest</option>
+          <option value="2">2 Guest</option>
+          <option value="3">3 Guest</option>
+          <option value="4">4 Guest</option>
+          <option value="5">5 Guest</option>
+          <option value="6">6 Guest</option>
+        </select>
+
+        <input type="submit" name="" value="Search">
+
+      </form>
+    </div>
+
+    <video class="field" src="video/Field_day.mp4" autoplay loop></video>
+
+    <script src="overlay.js" charset="utf-8"></script>
+  </body>
+</html>
